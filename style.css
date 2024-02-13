@@ -1,0 +1,33 @@
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto; 
+}
+h1 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+#game div {
+  border: none;
+  width: 22%;
+  padding-bottom: 22%;
+  margin: 2%;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+#game div.hidden {
+  background-image: url('question-mark.jpeg');
+  background-size: cover;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  background-color: black;
+  color: white;
+}
